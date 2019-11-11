@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 MIDDLEWARE_CLASSES = [
+#     'django.contrib.auth.middleware.AuthenticationMiddleware',
+#     'django.contrib.auth.middleware.RemoteUserMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +54,9 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SILENCED_SYSTEM_CHECKS = [
+    'admin.E408',
+]
 LOGIN_URL = "/login/"
 ROOT_URLCONF = 'intern.urls'
 
