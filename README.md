@@ -14,7 +14,8 @@ Registeration form and Login form used Crisp forms and Boostrap3 for frontend st
 Any person can register with a unique gmail account. He selects his user type as Customer or Dealer during the registeration. Several other information such as profile picture and content imformation is asked in registeration.
 
 Once the user is registerd, he will be logged in and redirected to respective Dashboard depending upon the user type.
-Only Dealer Dashboard has been linked (named as Dash1.html in template folder).  The dashboard is User specific and contains information of the user who logged in. Clicking "Power Button" in bottom of the dashboard template will logout the user and redirect to "Login" page. 
+The dashboard is User specific and contains information of the user and features as per user type, who logged in. 
+Clicking "Power Button" in bottom of the dashboard template will logout the user and redirect to "Login" page. 
 
 Customer's dashboard can also be edited using writing HTML in dash2.html in templates folder.
 
